@@ -11,7 +11,13 @@ To re-use:
 1. create your own repository using this repository as a template
 2. add/replace your own name list in a file with .txt extension
 3. commit the changes to github
-4. inspect results of name alignment in "Github Actions"
+4. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/runs/5468413931?check_suite_focus=true#step:5:144) Download the name alignment results with the single-use, and expiring, file.io link at:
+https://file.io/IllemEVSEfXa
+)
+5. download results from provided single-use https://file.io link  (e.g., look for ```Download the name alignment results with the single-use, and expiring, file.io link at: https://file.io/[something]``` in alignment report)
+6. to re-create results, change your name list in github or select ["re-run jobs" in Github Actions](https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs).
+
+
 
 # Origin
 
