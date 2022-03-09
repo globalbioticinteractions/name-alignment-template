@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-java@v1
       with: 
         java-version: 1.8   
-    - name: download alignment script
+    - name: Download alignment script
       run: curl --silent -L "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/align-names.sh" > align-names.sh
-    - name: align names
+    - name: Align names
       run: bash align-names.sh "${GITHUB_REPOSITORY}" 
