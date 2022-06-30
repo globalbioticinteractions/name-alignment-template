@@ -9,8 +9,8 @@ datasets:
 #     type: text/tab-separated-values
     - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
       type: application/dwca
-#   - url: https://example.org/rss.xml
-#     type: application/rss+xml
+    - url: https://example.org/rss.xml
+      type: application/rss2+xml
 taxonomies:
     - id: col
       name: Catalogue of Life
@@ -35,7 +35,7 @@ This template repository offers an automated method to align scientific names in
 To re-use:
 
 1. create your own repository using this repository as a template
-2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```. 
+2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```, and ```application/rss+xml```. 
 3. for now only names in column "scientificName" (tsv/csv), and "http://rs.tdwg.org/dwc/terms/scientificName" (DwC-A) will be aligned 
 4. commit the changes to github
 5. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/runs/5468413931?check_suite_focus=true#step:5:144))
