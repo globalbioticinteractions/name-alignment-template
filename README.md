@@ -26,7 +26,7 @@ taxonomies:
 
 # Name Alignment
 
-[![Name Alignment by Nomer](../actions/workflows/align.yml/badge.svg)](../actions/workflows/align.yml)
+[![Name Alignment by Nomer](../../actions/workflows/align.yml/badge.svg)](../../actions/workflows/align.yml)
 
 Aligning taxonomic names is a common task in biodiversity informatics. 
 
@@ -95,7 +95,7 @@ open in LibreOffice Calc
 
 Repeat with 'gbif' instead of 'itis'
 
-## provenance of DwC-A names
+## Provenance of DwC-A Names
 
 The name context of names extracted from DwC-A are captured in a funny looking text:
 
