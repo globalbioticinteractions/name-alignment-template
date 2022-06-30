@@ -9,11 +9,21 @@ datasets:
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
-    - url: https://example.org/data.zip
+    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
       type: application/dwca
 #   - url: https://example.org/rss.xml
 #     type: application/rss+xml
-
+taxonomies:
+    - id: catalog_of_life
+      name: Catalogue of Life
+    - id: gbif
+      name: GBIF Backbone Taxonomy
+    - id: itis
+      name: Integrated Taxonomic Information System
+    - id: ncbi
+      name: NCBI Taxonomy
+    - id: globi
+      name: GloBI Taxon Graph
 ---
 
 # Name Alignment
