@@ -9,8 +9,8 @@ datasets:
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
-#   - url: https://example.org/data.zip
-#     type: application/dwca
+    - url: https://example.org/data.zip
+      type: application/dwca
 #   - url: https://example.org/rss.xml
 #     type: application/rss+xml
 
