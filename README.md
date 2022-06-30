@@ -1,3 +1,17 @@
+---
+# replace uri to point to the name resource you'd like to align
+datasets:
+    - url: foodorganisms.txt
+      type: text/csv
+#   - url: https://example.org/data.tsv
+#     type: text/tab-separated-values
+#   - url: https://example.org/data.zip
+#     type: application/dwca
+#   - url: https://example.org/rss.xml
+#     type: application/rss+xml
+
+---
+
 # Name Alignment
 
 [![Name Alignment by Nomer](https://github.com/globalbioticinteractions/name-alignment-template/actions/workflows/align.yml/badge.svg)](https://github.com/globalbioticinteractions/name-alignment-template/actions/workflows/align.yml)
