@@ -5,6 +5,8 @@
 datasets:
     - url: foodorganisms.txt
       type: text/csv
+    - url: foodorganisms.txt
+      type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
 #   - url: https://example.org/data.zip
