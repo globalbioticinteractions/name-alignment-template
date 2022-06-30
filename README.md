@@ -1,5 +1,7 @@
 ---
 # replace uri to point to the name resource you'd like to align
+# a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
+# is assumed to be a local file in working directory
 datasets:
     - url: foodorganisms.txt
       type: text/csv
