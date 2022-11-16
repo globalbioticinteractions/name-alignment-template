@@ -12,16 +12,26 @@ datasets:
     - url: https://example.org/rss.xml
       type: application/rss2+xml
 taxonomies:
+    - id: batnames
+      name: Bat Names 
     - id: col
       name: Catalogue of Life
     - id: gbif
       name: GBIF Backbone Taxonomy
+    - id: globi
+      name: GloBI Taxon Graph
+    - id: indexfungorum
+      name: Index Fungorum
     - id: itis
       name: Integrated Taxonomic Information System
     - id: ncbi
       name: NCBI Taxonomy
-    - id: globi
-      name: GloBI Taxon Graph
+    - id: ott
+      name: Open Tree of Life Taxonomy
+    - id: tpt
+      name: Terrestrial Parasite Tracker Taxonomies
+    - id: wfo
+      name: World of Flora Online
 ---
 
 # Name Alignment
