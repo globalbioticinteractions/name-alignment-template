@@ -48,7 +48,7 @@ To re-use:
 2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```, and ```application/rss+xml```. Also, delete any taxonomy entries that you are not interested in: the fewer taxonomies to align with, the faster the review. 
 3. for now only names in column "scientificName" (tsv/csv), and "http://rs.tdwg.org/dwc/terms/scientificName" (DwC-A) will be aligned 
 4. commit the changes to github
-5. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/runs/5468413931?check_suite_focus=true#step:5:144))
+5. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/raw/main/img/name-alignment-review-2022-11-14.log))
 )
 6. download results from provided single-use https://file.io link  (e.g., look for ```Download the name alignment results with the single-use, and expiring, file.io link at: https://file.io/[something]``` in alignment report)
 7. to re-create results, change your name list in github or select ["re-run jobs" in Github Actions](https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs).
