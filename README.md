@@ -47,7 +47,7 @@ To re-use:
 
 1. create your own repository using this repository as a template
 2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```, and ```application/rss+xml```. Also, delete any taxonomy entries that you are not interested in: the fewer taxonomies to align with, the faster the review. 
-3. edit taxonomies list in the README.md [front-matter](https://jekyllrb.com/docs/front-matter/) to select those you are interested to work with  
+3. edit taxonomies list in the README.md [front-matter](https://jekyllrb.com/docs/front-matter/) to select those you are interested to work with. Many are configured by default, and you can customize to make the configuration work best for your names.  
 4. for now only names in column "scientificName" (tsv/csv), and "http://rs.tdwg.org/dwc/terms/scientificName" (DwC-A) will be aligned 
 5. commit the changes to github
 6. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/raw/main/img/name-alignment-review-2022-11-14.log))
