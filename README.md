@@ -11,10 +11,9 @@ datasets:
       type: application/dwca
     - url: https://example.org/rss.xml
       type: application/rss2+xml
-# uncomment the taxonomies you'd like to match your names with
 taxonomies:
-#    - id: batnames
-#      name: Bat Names 
+    - id: batnames
+      name: Bat Names 
     - id: col
       name: Catalogue of Life
     - id: gbif
