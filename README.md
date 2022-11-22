@@ -11,6 +11,7 @@ datasets:
       type: application/dwca
     - url: https://example.org/rss.xml
       type: application/rss2+xml
+# edit list below to select taxonomies you'd like to work with
 taxonomies:
     - id: batnames
       name: Bat Names 
