@@ -29,6 +29,8 @@ taxonomies:
       name: NCBI Taxonomy
     - id: ott
       name: Open Tree of Life Taxonomy
+    - id: plazi
+      name: Plazi Treatments
     - id: tpt
       name: Terrestrial Parasite Tracker Taxonomies
     - id: wfo
