@@ -29,5 +29,5 @@ jobs:
     - name: Share alignment
       uses: actions/upload-artifact@v3
       with:
-        name: names-aligned
+        name: alignment.zip
         path: names-aligned.zip 
