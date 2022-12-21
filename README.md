@@ -43,14 +43,16 @@ taxonomies:
 
 [![Name Alignment by Nomer](../../actions/workflows/align.yml/badge.svg)](../../actions/workflows/align.yml)
 
-[alignment-report.zip](https://nightly.link/globalbioticinteractions/name-alignment-template/workflows/align/main/alignment-report.zip)
+To find your automatically created name alignment report, click on "Name Alignment by Nomer" above, click on a workflow run, and  download the `alignment-report` artifact.
+
+## Background
 
 
 Aligning taxonomic names is a common task in biodiversity informatics. 
 
 This template repository offers an automated method to align scientific names in csv/tsv files and darwin core archive with common taxonomic name lists like Catalogue of Life, NCBI Taxonomy, Integrated Taxonomic Information System (ITIS), and GBIF Backbone taxonomy.
 
-To re-use:
+## Getting Started
 
 1. create your own repository using this repository as a template
 2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```, and ```application/rss+xml```. Also, delete any taxonomy entries that you are not interested in: the fewer taxonomies to align with, the faster the review. 
@@ -59,8 +61,8 @@ To re-use:
 5. commit the changes to github
 6. inspect results of name alignment in "Github Actions" (e.g., [sample results](https://github.com/globalbioticinteractions/name-alignment-template/raw/main/img/name-alignment-review-2022-11-14.log))
 )
-6. download results from provided single-use https://file.io link  (e.g., look for ```Download the name alignment results with the single-use, and expiring, file.io link at: https://file.io/[something]``` in alignment report)
-7. to re-create results, change your name list in github or select ["re-run jobs" in Github Actions](https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs).
+7. download name alignment report from the "artifacts" section 
+8. to re-create/re-run results, change your name list in github or select ["re-run jobs" in Github Actions](https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs).
 
 # Origin
 
