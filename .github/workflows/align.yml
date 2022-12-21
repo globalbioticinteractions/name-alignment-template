@@ -26,7 +26,7 @@ jobs:
       run: curl --silent -L "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/align-names.sh" > align-names.sh
     - name: Align names
       run: bash align-names.sh "${GITHUB_REPOSITORY}"
-    - name: Share alignment
+    - name: Share alignment report
       uses: actions/upload-artifact@v3
       with:
         name: alignment-report
