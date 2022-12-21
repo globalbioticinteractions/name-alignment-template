@@ -43,6 +43,9 @@ taxonomies:
 
 [![Name Alignment by Nomer](../../actions/workflows/align.yml/badge.svg)](../../actions/workflows/align.yml)
 
+[alignment-report.zip](https://nightly.link/globalbioticinteractions/name-alignment-template/workflows/align/main/alignment-report.zip)
+
+
 Aligning taxonomic names is a common task in biodiversity informatics. 
 
 This template repository offers an automated method to align scientific names in csv/tsv files and darwin core archive with common taxonomic name lists like Catalogue of Life, NCBI Taxonomy, Integrated Taxonomic Information System (ITIS), and GBIF Backbone taxonomy.
