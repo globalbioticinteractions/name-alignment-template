@@ -30,4 +30,8 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: alignment-report
-        path: names-aligned.zip 
+        path: |
+          names-aligned.csv
+          names-aligned.tsv
+          names-aligned.txt
+          data/ 
