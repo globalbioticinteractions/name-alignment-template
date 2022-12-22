@@ -45,6 +45,8 @@ taxonomies:
 
 To find your automatically created name alignment report, click on "Name Alignment by Nomer" above, click on a workflow run, and  download the `alignment-report` artifact.
 
+:info: note that only logged-in github users with access can download the alignment report.
+
 ## Background
 
 
