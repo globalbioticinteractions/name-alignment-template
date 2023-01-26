@@ -29,8 +29,12 @@ taxonomies:
 #      name: GloBI Taxon Graph
 #    - id: indexfungorum
 #      name: Index Fungorum
+#    - id: mdd
+#      name: Mammal Diversity Database
 #    - id: ott
 #      name: Open Tree of Life Taxonomy
+#    - id: pbdb
+#      name: Paleobiology Database
 #    - id: plazi
 #      name: Plazi Treatments
 #    - id: tpt
