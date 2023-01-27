@@ -60,6 +60,8 @@ This template repository offers an automated method to align scientific names in
 
 ## Getting Started
 
+Follow steps below or alternatively visit https://big-bee-network.github.io/name-alignment-workshop to learn more.
+
 1. create your own repository using this repository as a template
 2. edit the README.md and add the urls / filenames to the resources you'd like to review. Note that only the following types are supported at time of writing (June 2022): ```text/csv```, ```text/tab-separated-values```, ```application/dwca```, and ```application/rss+xml```. Also, delete any taxonomy entries that you are not interested in: the fewer taxonomies to align with, the faster the review. 
 3. edit taxonomies list in the README.md [front-matter](https://jekyllrb.com/docs/front-matter/) to select those you are interested to work with. Many are configured by default, and you can customize to make the configuration work best for your names.  
