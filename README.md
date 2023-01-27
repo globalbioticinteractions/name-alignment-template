@@ -11,36 +11,59 @@ datasets:
 #      type: application/dwca
 #    - url: https://example.org/rss.xml
 #      type: application/rss2+xml
-# edit list below to select taxonomies you'd like to work with
+# 
 taxonomies:
+#
+# Edit list below to select taxonomies you'd like to work with. 
+#
+# To enable taxonomies to align with set:
+#  enabled: true 
+#
+# To disable taxonomies to align with set: 
+#  enabled: false
+#
     - id: itis
+      enabled: true
       name: Integrated Taxonomic Information System
     - id: ncbi
+      enabled: true
       name: NCBI Taxonomy
     - id: discoverlife
+      enabled: true
       name: Discover Life Taxonomy
-#    - id: batnames
-#      name: Bat Names 
-#    - id: col
-#      name: Catalogue of Life
-#    - id: gbif
-#      name: GBIF Backbone Taxonomy
-#    - id: globi
-#      name: GloBI Taxon Graph
-#    - id: indexfungorum
-#      name: Index Fungorum
-#    - id: mdd
-#      name: Mammal Diversity Database
-#    - id: ott
-#      name: Open Tree of Life Taxonomy
-#    - id: pbdb
-#      name: Paleobiology Database
-#    - id: plazi
-#      name: Plazi Treatments
-#    - id: tpt
-#      name: Terrestrial Parasite Tracker Taxonomies
-#    - id: wfo
-#      name: World of Flora Online
+    - id: batnames
+      enabled: false
+      name: Bat Names 
+    - id: col
+      enabled: false
+      name: Catalogue of Life
+    - id: gbif
+      enabled: false
+      name: GBIF Backbone Taxonomy
+    - id: globi
+      enabled: false
+      name: GloBI Taxon Graph
+    - id: indexfungorum
+      enabled: false
+      name: Index Fungorum
+    - id: mdd
+      enabled: false
+      name: Mammal Diversity Database
+    - id: ott
+      enabled: false
+      name: Open Tree of Life Taxonomy
+    - id: pbdb
+      enabled: false
+      name: Paleobiology Database
+    - id: plazi
+      enabled: false
+      name: Plazi Treatments
+    - id: tpt
+      enabled: false
+      name: Terrestrial Parasite Tracker Taxonomies
+    - id: wfo
+      enabled: false
+      name: World of Flora Online
 ---
 
 # Name Alignment
