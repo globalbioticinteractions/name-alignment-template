@@ -4,13 +4,21 @@
 # is assumed to be a local file in working directory
 datasets:
     - url: names.csv
+      enabled: true
       type: text/csv
-#   - url: https://example.org/data.tsv
-#     type: text/tab-separated-values
-#    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
-#      type: application/dwca
-#    - url: https://example.org/rss.xml
-#      type: application/rss2+xml
+    - id: mdd
+      enabled: false
+      name: Mammal Diversity Database
+      type: application/nomer
+    - url: https://example.org/data.tsv
+      enabled: false
+      type: text/tab-separated-values
+    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
+      enabled: false
+      type: application/dwca
+    - url: https://scan-bugs.org:443/portal/webservices/dwc/rss.xml 
+      enabled: false
+      type: application/rss+xml
 # 
 taxonomies:
 #
