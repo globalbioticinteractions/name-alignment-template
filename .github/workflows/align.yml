@@ -1,5 +1,8 @@
-# This workflow will review a GloBI indexed dataset.
-# For more information see: https://globalbioticinteractions.org
+# This workflow attempt to align taxonomic names
+# from selected datasets 
+# with selected taxonomic resources.
+#
+# For more information see: https://github.com/globalbioticinteractions/name-alignment-template
 
 name: Name Alignment by Nomer
 
