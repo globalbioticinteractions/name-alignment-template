@@ -37,4 +37,5 @@ jobs:
           names-aligned.csv
           names-aligned.tsv
           names-aligned.txt
+          names-aligned.html
           data/ 
