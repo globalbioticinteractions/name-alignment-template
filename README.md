@@ -51,6 +51,9 @@ taxonomies:
     - id: gbif
       enabled: false
       name: GBIF Backbone Taxonomy
+    - id: worms
+      enabled: true
+      name: World Register of Marine Species
     - id: globi
       enabled: false
       name: GloBI Taxon Graph
