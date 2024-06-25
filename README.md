@@ -78,6 +78,9 @@ taxonomies:
     - id: wfo
       enabled: false
       name: World of Flora Online
+    - id: wikidata
+      enabled: true
+      name: Wikidata Taxon Items
 ---
 
 # Name Alignment
