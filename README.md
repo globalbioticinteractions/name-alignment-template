@@ -48,6 +48,9 @@ taxonomies:
     - id: col
       enabled: false
       name: Catalogue of Life
+    - id: eol
+      enabled: false
+      name: Encyclopedia of Life Dynamic Hierarchy
     - id: gbif
       enabled: false
       name: GBIF Backbone Taxonomy
