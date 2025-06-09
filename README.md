@@ -49,7 +49,7 @@ taxonomies:
       enabled: false
       name: Catalogue of Life
     - id: eol
-      enabled: false
+      enabled: true
       name: Encyclopedia of Life Dynamic Hierarchy
     - id: gbif
       enabled: false
