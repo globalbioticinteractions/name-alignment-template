@@ -84,6 +84,9 @@ taxonomies:
     - id: wikidata
       enabled: true
       name: Wikidata Taxon Items
+    - id: moure
+      enabled: true
+      name: Moure Classification
 ---
 
 # Name Alignment
