@@ -87,6 +87,9 @@ taxonomies:
     - id: moure
       enabled: true
       name: Moure Classification
+    - id: irmng
+      enabled: true
+      name: Interim Registry of Marine and Nonmarine Genera
 ---
 
 # Name Alignment
